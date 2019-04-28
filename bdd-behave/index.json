@@ -33,7 +33,7 @@
     "TGIF.py"
   ],
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "bash"

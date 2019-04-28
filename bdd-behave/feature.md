@@ -1,6 +1,6 @@
 ## Create a feature file using Gherkin format
 
-Copy or type this code into `TGIF.feature`:
+Copy or type this code into `weekend.feature`:
 
 <pre class="file" data-filename="weekend.feature" data-target="replace">
 Feature: Is it nearly weekend?

@@ -1,6 +1,6 @@
 ## Implement the steps in the feature file
 
-Copy or type this code into `TGIF.py`:
+Copy or type this code into `weekend.py`:
 
 <pre class="file" data-filename="weekend.py" data-target="replace">
 #!/usr/bin/python

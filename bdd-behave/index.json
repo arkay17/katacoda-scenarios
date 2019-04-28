@@ -19,6 +19,10 @@
     {
       "title": "Implement the steps for the feature",
       "text": "steps.md"
+    },
+    {
+      "title": "Use behave to execute the test",
+      "text": "behave.md"
     }],
     "intro": {
       "text": "intro.md",

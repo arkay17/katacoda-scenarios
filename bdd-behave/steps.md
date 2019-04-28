@@ -30,7 +30,7 @@ def step_impl(context):
 def step_impl(context):
     context.today = "Wednesday"
 
-@when('I ask if it's weekend yet')
+@when('I ask if it\'s weekend yet')
 def step_impl(context):
     context.weekend = check_weekend(context.today)
     

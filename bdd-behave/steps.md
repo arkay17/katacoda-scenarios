@@ -32,7 +32,7 @@ def step_impl(context):
 
 @when('I ask if it\'s weekend yet')
 def step_impl(context):
-    context.weekend = check_weekend(context.today)
+    context.is_weekend = check_weekend(context.today)
     
 @then('I should be told "Yes"')
 def step_impl(context):

@@ -4,4 +4,6 @@ This is your first step.
 
 This is an _example_ of creating a scenario and running a **command**
 
-`echo 'Hello Scenario'`{{execute}}
+`mkdir features`{{execute}}
+`cd features`{{execute}}
+`mkdir steps`{{execute}}

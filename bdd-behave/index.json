@@ -1,12 +1,16 @@
 {
-  "title": "Hello Scenario",
-  "description": "Your First Scenario",
+  "title": "BDD using Python Behave",
+  "description": "BDD Behave Scenario",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Create behave directory structure",
       "text": "step1.md"
+    },
+    {
+      "title": "Step 2 - Create feature file and implementation",
+      "text": "step2.md"
     }],
     "intro": {
       "text": "intro.md",

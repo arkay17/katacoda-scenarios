@@ -2,7 +2,7 @@
 
 Copy or type this code into `TGIF.feature`:
 
-<pre class="file" data-filename="features/TGIF.feature" data-target="replace">
+<pre class="file" data-filename="weekend.feature" data-target="replace">
 Feature: Is it nearly weekend?
   Everybody wants to know if it's nearly weekend yet
 

@@ -29,8 +29,8 @@
     }
   },
   "files": [
-    "TGIF.feature",
-    "TGIF.py"
+    "features/weekend.feature",
+    "feature/steps/weekend.py"
   ],
   "environment": {
     "uilayout": "editor-terminal"

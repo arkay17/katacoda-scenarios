@@ -2,7 +2,7 @@
 
 Copy or type this code into `TGIF.py`:
 
-<pre class="file" data-filename="features/steps/TGIF.py" data-target="replace">
+<pre class="file" data-filename="weekend.py" data-target="replace">
 #!/usr/bin/python
 import behave
 
@@ -10,7 +10,7 @@ weekend = ['Friday', 'Saturday', 'Sunday']
 
 def check_weekend(today):
     if today in weekend:
-	return "Yes"
+        return "Yes"
     else:
         return "No"
 

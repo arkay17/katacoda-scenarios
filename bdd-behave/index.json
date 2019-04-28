@@ -34,7 +34,7 @@
   },
   "files": [
     "features/weekend.feature",
-    "feature/steps/weekend.py"
+    "features/steps/weekend.py"
   ],
   "environment": {
     "uilayout": "editor-terminal"

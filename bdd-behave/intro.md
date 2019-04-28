@@ -1,1 +1,1 @@
-Welcome to the BDD python Scenario using behave!
+Welcome to the BDD Scenario using python behave!

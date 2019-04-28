@@ -5,12 +5,20 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Create behave directory structure",
-      "text": "step1.md"
+      "title": "Install pip and python-behave",
+      "text": "pip.md"
     },
     {
-      "title": "Step 2 - Create feature file and implementation",
-      "text": "step2.md"
+      "title": "Create behave directory layout",
+      "text": "layout.md"
+    },
+    {
+      "title": "Create feature file using Gherkin format",
+      "text": "feature.md"
+    },
+    {
+      "title": "Implement the steps for the feature",
+      "text": "steps.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -26,7 +34,6 @@
   ],
   "environment": {
     "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "bash"

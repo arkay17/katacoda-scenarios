@@ -1,1 +1,1 @@
-You've completed your first Katacoda scenario!
+You've completed your first BDD scenario using Python Behave!

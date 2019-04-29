@@ -14,11 +14,11 @@ Feature: Is it nearly weekend?
     When I ask if it's weekend yet
     Then I should be told <response>
 
-  Examples :
-    | day_today  |  response |
-    | Wednesday  |  No       |
-    | Saturday   |  Yes      |
-    | Friday     |  TGIF     |
-    | Monday     |  No       |
+    Examples :
+      | day_today  |  response |
+      | Wednesday  |  No       |
+      | Saturday   |  Yes      |
+      | Friday     |  TGIF     |
+      | Monday     |  No       |
 
 </pre>

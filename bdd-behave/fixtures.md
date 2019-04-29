@@ -1,4 +1,4 @@
-## Add behave fixtures for use
+## Add fixtures and common steps
 
 Copy or type this code into `behave_fixtures.py`:
 

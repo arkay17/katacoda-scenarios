@@ -1,4 +1,4 @@
-## Implement the steps in the feature file
+## Update the steps as per the outline
 
 Copy or type this code into `weekend.py`:
 

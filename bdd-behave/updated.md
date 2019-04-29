@@ -6,10 +6,10 @@ Copy or type this code into `weekend.py`:
 #!/usr/bin/python
 import behave
 
-def check_weekend(today):
+def check_weekend(weekend, today):
     if today == "Friday":
        return "TGIF"
-    elif today in context.weekend:
+    elif today in weekend:
         return "Yes"
     else:
         return "No"
@@ -20,7 +20,7 @@ def step_impl(context, day_today):
 
 @when('I ask if it\'s weekend yet')
 def step_impl(context):
-    context.is_weekend = check_weekend(context.today)
+    context.is_weekend = check_weekend(context.weekend, context.today)
     
 @then('I should be told {response}')
 def step_impl(context, response):

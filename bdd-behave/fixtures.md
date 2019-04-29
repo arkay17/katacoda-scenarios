@@ -18,7 +18,8 @@ def weekend(context):
 <pre class="file" data-filename="common_steps.py" data-target="replace">
 import behave
 
-@given('the {day_today} is a valid day')
-def step_impl(context, day_today):
-    assert day_today in context.days
+@given('it is a valid day')
+def step_impl(context):
+    print("Valid day")
+    #assert day_today in context.days
 </pre>

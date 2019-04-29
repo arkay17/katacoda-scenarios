@@ -7,12 +7,12 @@ Feature: Is it nearly weekend?
   Everybody wants to know if it's nearly weekend yet
 
   Background: Validate input
-    Given the `<day_today>` is a valid day
+    Given the <day_today> is a valid day
 
-  Scenario Outline: `<day_today>` isn't weekend yet
-    Given today is `<day_today>`
+  Scenario Outline: <day_today> isn't weekend yet
+    Given today is <day_today>
     When I ask if it's weekend yet
-    Then I should be told `<response>`
+    Then I should be told <response>
 
   Examples :
     | day_today  |  response |

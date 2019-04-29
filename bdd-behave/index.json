@@ -23,6 +23,30 @@
     {
       "title": "Use behave to execute the test",
       "text": "behave.md"
+    },
+    {
+      "title": "Add fixtures and common steps",
+      "text": "fixtures.md"
+    },
+    {
+      "title": "Convert into a scenario outline",
+      "text": "outline.md"
+    },
+    {
+      "title": "Add environment controls",
+      "text": "environment.md"
+    },
+    {
+      "title": "Add a background",
+      "text": "background.md"
+    },
+    {
+      "title": "Modify the steps now inline with the above",
+      "text": "updated.md"
+    },
+    {
+      "title": "Add tags and test",
+      "text": "tags.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -34,7 +58,10 @@
   },
   "files": [
     "features/weekend.feature",
-    "features/steps/weekend.py"
+    "features/steps/weekend.py",
+    "features/environment.py",
+    "features/steps/behave_fixtures.py",
+    "features/steps/common_steps.py"
   ],
   "environment": {
     "uilayout": "editor-terminal"

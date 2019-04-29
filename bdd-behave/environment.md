@@ -1,0 +1,24 @@
+## Add behave fixtures for use
+
+Copy or type this code into `environment.py`:
+
+<pre class="file" data-filename="environment.py" data-target="replace">
+from behave import fixture, use_fixture
+from behave_fixtures import days, weekend
+
+def before_all(context):
+    context.config.setup_logging(
+            format='%(asctime)s %(name)-25s %(lineno)-5d %(levelname)-8s %(message)s',
+            datefmt='%a, %d %b %Y %H:%M:%S')
+    use_fixture(days, context)
+    use_fixture(weekend, context)
+
+def after_scenario(context, scenario):
+    print("Scenario {} ends here".format(scenario.name))
+
+def after_feature(context, feature):
+    print("Feature {} ends here".format(feature.name))
+
+</pre>
+
+

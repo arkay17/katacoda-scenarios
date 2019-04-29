@@ -9,7 +9,7 @@ import behave
 def check_weekend(today):
     if today == "Friday":
        return "TGIF"
-    else if today in context.weekend:
+    elif today in context.weekend:
         return "Yes"
     else:
         return "No"

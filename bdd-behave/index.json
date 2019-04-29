@@ -45,8 +45,12 @@
       "text": "updated.md"
     },
     {
-      "title": "Add tags and test",
+      "title": "Add tags for testing",
       "text": "tags.md"
+    },
+    {
+      "title": "Re-run scenario and test",
+      "text": "rerun.md"
     }],
     "intro": {
       "text": "intro.md",

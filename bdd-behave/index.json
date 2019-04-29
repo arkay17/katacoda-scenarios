@@ -64,7 +64,6 @@
     "features/weekend.feature",
     "features/steps/weekend.py",
     "features/environment.py",
-    "features/steps/behave_fixtures.py",
     "features/steps/common_steps.py"
   ],
   "environment": {

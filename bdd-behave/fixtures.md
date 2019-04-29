@@ -2,7 +2,7 @@
 
 Copy or type this code into `behave_fixtures.py`:
 
-<pre class="file" data-filename="behave_fixtures.py" data-target="replace">
+<pre class="file" data-filename="environment.py" data-target="replace">
 from behave import fixture
 
 @fixture

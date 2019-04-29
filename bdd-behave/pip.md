@@ -10,4 +10,4 @@ Confirm it works: pip3
 ## Using pip
 Use pip to install Behave
 
-`pip3 install behave behave_fixtures`{{execute}}
+`pip3 install behave`{{execute}}

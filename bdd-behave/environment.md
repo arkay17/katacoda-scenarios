@@ -4,7 +4,14 @@ Copy or type this code into `environment.py`:
 
 <pre class="file" data-filename="environment.py" data-target="replace">
 from behave import fixture, use_fixture
-from behave_fixtures import days, weekend
+
+@fixture
+def days(context):
+    context.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+@fixture
+def weekend(context):
+    context.weekend = ['Saturday', 'Sunday']
 
 def before_all(context):
     context.config.setup_logging(

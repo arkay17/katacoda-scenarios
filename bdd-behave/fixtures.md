@@ -1,4 +1,10 @@
-## Add fixtures and common steps
+
+Variable 'context' is an instance of a class - used to store contextual data during the run 
+Context persists within the scenario only - not between scenarios
+
+Config/fixtures can be used – similar to pytest fixtures
+
+## Add fixtures 
 
 Copy or type this code into `behave_fixtures.py`:
 
@@ -14,12 +20,13 @@ def weekend(context):
     context.weekend = ['Saturday', 'Sunday'] 
 </pre>
 
+## Add cCommon steps - grouped to avoid duplication 
 
 <pre class="file" data-filename="common_steps.py" data-target="replace">
 import behave
 
-@given('it is a valid day')
-def step_impl(context):
+@given('{day_today} is valid')
+def step_impl(context, day_today):
     print("Valid day")
-    #assert day_today in context.days
+    assert day_today in context.days
 </pre>

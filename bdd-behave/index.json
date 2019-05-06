@@ -5,35 +5,35 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Install pip and python-behave",
+      "title": "Installations",
       "text": "pip.md"
     },
     {
-      "title": "Create behave directory layout",
+      "title": "Behave directory layout",
       "text": "layout.md"
     },
     {
-      "title": "Create feature file using Gherkin format",
+      "title": "Feature file using Gherkin",
       "text": "feature.md"
     },
     {
-      "title": "Implement the steps for the feature",
+      "title": "Step implementation",
       "text": "steps.md"
     },
     {
-      "title": "Use behave to execute the test",
+      "title": "Test execution",
       "text": "behave.md"
     },
     {
-      "title": "Add fixtures and common steps",
+      "title": "Common data and sharing",
       "text": "fixtures.md"
     },
     {
-      "title": "Convert into a scenario outline",
+      "title": "Scenario outline",
       "text": "outline.md"
     },
     {
-      "title": "Add environment controls",
+      "title": "Environmental controls",
       "text": "environment.md"
     },
     {
@@ -41,15 +41,15 @@
       "text": "background.md"
     },
     {
-      "title": "Modify the steps now inline with the above",
+      "title": "Step implementaion - updated",
       "text": "updated.md"
     },
     {
-      "title": "Add tags for testing",
+      "title": "Tags for control",
       "text": "tags.md"
     },
     {
-      "title": "Re-run scenario and test",
+      "title": "Re-run scenario",
       "text": "rerun.md"
     }],
     "intro": {

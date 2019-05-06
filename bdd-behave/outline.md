@@ -1,3 +1,7 @@
+
+Scenario outline - better organization, less gherkin and group test cases, when run same test with different parameters
+No need to repeat steps with different parameters	
+
 ## Modify the feature file to use a scenario outline 
 
 Copy or type this code into `weekend.feature`:

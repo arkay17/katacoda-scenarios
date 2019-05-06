@@ -1,4 +1,13 @@
+
+BDD consists of
+- Steps (Give, When, Then) - located in feature files (.feature)
+- Step definitions - located in python files (.py)
+
 ## Implement the steps in the feature file
+
+Step definitions are python functions which are definitions for the steps
+- on top of each function there is a step decorator @given/when/then
+- more py files that are not definitions - can also be imported
 
 Copy or type this code into `weekend.py`:
 

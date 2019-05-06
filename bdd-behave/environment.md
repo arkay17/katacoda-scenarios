@@ -1,4 +1,10 @@
-## Add behave fixtures for use
+
+Setup and teardown -
+Setup - set of actions taken before each step/scenario/feature/tag, like creating db, files, logging setup
+Teardown – cleanup the setup or actions to take after each step/scenario/feature/tag
+Behave supports this by implementing a file created by user - environment.py – same directory level as the steps 
+
+## Add environmental controls
 
 Copy or type this code into `environment.py`:
 

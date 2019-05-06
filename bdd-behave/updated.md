@@ -1,4 +1,5 @@
-## Update the steps as per the outline
+
+Update the steps as per the latest feature file with the scenario outline
 
 Copy or type this code into `weekend.py`:
 

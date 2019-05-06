@@ -1,4 +1,10 @@
-## Add a background to the feature file - implements before every scenario
+
+Tags - to control which tests to run - applied to feature/scenario/ --tags - combinations
+--tags=a,b  -> a or b (logical OR)
+--tags=a --tags=b -> both a and b (logican AND)
+--tags=~a -> not a -> NOT
+
+## Add a tag to the feature file
 
 Copy or type this code into `weekend.feature`:
 
@@ -6,8 +12,8 @@ Copy or type this code into `weekend.feature`:
 Feature: Is it nearly weekend?
   Everybody wants to know if it's nearly weekend yet
 
-  Background: Validate input
-    Given it is a valid day
+  Background: 
+    Given <day_today> is valid
 
   @tagged
   Scenario Outline: It'a <day_today>, is it weekend yet

@@ -1,4 +1,16 @@
+
+Gherkin written by Stakeholders - product owners, project managers are passed on to automation engineers for coding
+
+BDD consists of
+- Steps (Give, When, Then) - located in feature files (.feature)
+- Step definitions - located in python files (.py)
+
 ## Create a feature file using Gherkin format
+
+Feature file has one or more scenarios - feature name/scenario name/steps
+- Precondition - 'given'
+- Interaction to do something - 'when'
+- Verify the expectation - 'then'
 
 Copy or type this code into `weekend.feature`:
 

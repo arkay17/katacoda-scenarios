@@ -10,8 +10,8 @@ Copy or type this code into `weekend.feature`:
 Feature: Is it nearly weekend?
   Everybody wants to know if it's nearly weekend yet
 
-  Scenario Outline: It'a <day_today>, is it weekend yet
-    Given today is <day_today>
+  Scenario Outline: It'a &ltday_today&gt, is it weekend yet
+    Given today is &ltday_today&gt
     When I ask if it's weekend yet
     Then I should be told <response>
 

@@ -1,6 +1,6 @@
 
 Behave has a specific directory layout
-- features directory for steps
+- features directory for feature files containing scenarios made of steps
 - steps directory for step definitions
 
 ## Create features directory

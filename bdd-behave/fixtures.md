@@ -20,7 +20,7 @@ def weekend(context):
     context.weekend = ['Saturday', 'Sunday'] 
 </pre>
 
-## Add cCommon steps - grouped to avoid duplication 
+## Add common steps - grouped to avoid duplication 
 
 <pre class="file" data-filename="common_steps.py" data-target="replace">
 import behave

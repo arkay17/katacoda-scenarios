@@ -19,6 +19,10 @@ def check_weekend(weekend, today):
 def step_impl(context, day_today):
     context.today = day_today
 
+@given('{day_today} is a valid day')
+def step_impl(context, day_today):
+    assert day_today in context.days
+
 @when('I ask if it\'s weekend yet')
 def step_impl(context):
     context.is_weekend = check_weekend(context.weekend, context.today)

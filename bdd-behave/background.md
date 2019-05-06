@@ -11,10 +11,11 @@ Feature: Is it nearly weekend?
   Everybody wants to know if it's nearly weekend yet
 
   Background: 
-    Given &ltday_today&gt is valid
+    Given this step passes
 
   Scenario Outline: It'a &ltday_today&gt, is it weekend yet
     Given today is &ltday_today&gt
+    And &ltday_today&gt is a valid day
     When I ask if it's weekend yet
     Then I should be told &ltresponse&gt
 
